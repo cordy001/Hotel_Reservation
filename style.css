@@ -25,27 +25,97 @@ body {
     border-radius: 15px;
     display: flex;
     flex-flow: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     background-color: #121212;
     margin: 50px auto;
+}
+.form_cont h3 {
+    margin: 20px 0;
 }
 .form_cont label {
     font-size: 18px;
     text-align: center;
     font-weight: bold;
-    margin: 0 20px;
+    margin: 0 10px;
+    cursor: pointer;
 }
-.form_cont div {
+.string {
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+}
+.string input {
+    width: 75%;
+    padding: 10px 0;
+    margin: 0;
+    outline: none;
+    background: transparent;
+    border: transparent;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+.t_c {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+.check_box {
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 15px 0;
+}
+.select_accom {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form_cont select {
     width: 70%;
+    padding: 10px 5px;
+    cursor: pointer;
+    background-color: #2e3b4e;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    outline: none;
+}
+.form_cont option {
+    color: #fff;
+}
+.button_func {
+    width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 15px 0;
+    margin: 20px 0; 
 }
-.form_cont input {
-    padding: 5px 10px;
+.button_func button {
+    padding: 10px 120px;
+    background: #2e3b4e;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+.button_func button:hover {
+    opacity: 0.5;
+}
+
+.check_box input {
+    margin: 0 20px;
+    cursor: pointer;
 }
 .form_cont h1 {
     margin: 20px 0;
